@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+html, body{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+header{
+    display: flex;
+    background: linear-gradient(to top, #185333, #3cdc84);
+    color: white;
+    height: 170px;
+    padding: 10px 10px;
+    flex-direction: column;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header > section{
+    display: flex;
+}
+section#cabecalho > p{
+    width: 400px;
+    text-align: center;  
+    text-indent: 0%;
+}
+section#cabecalho > h1{
+    font-size: 1.5em;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header > section > p{
+    display: block;
+    align-items: center;
+}
+nav{
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    
+}
+nav > a:hover{
+    color: black;
+    background-color: #42a5709f;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+main > article{
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+main > section{
+    justify-content: center;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+h1{
+    font-size: 1.5em;
+    color: #266443;
+    font-family: idroid, arial, sans-serif;
+}
+h2{
+    font-size: 1.2em;
+    background: linear-gradient(to right, #C5EBD6, #c5ebd62f);
+    color: #266443;
+    padding: 2px;
+    font-family: idroid, arial, sans-serif;
+}
+img{
+    display: block;
+    margin: 15px auto;
+}
